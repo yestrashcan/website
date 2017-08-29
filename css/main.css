@@ -95,15 +95,59 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background-image:url("../img/background.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
 
+#content {
+    position: absolute;
+    margin:auto auto;
+    width:100%;
+    height:100%;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
 
+#catchphrase {
+    font-size:24px;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    left: 12px;
+    width:330px;
+    padding:0 12px;
+    color: #6b4015;
+    background: rgba(255,255,255,0.3);
 
+}
 
+#text {
+    color: white;
+    font-weight:bold;
+    align: center;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    padding:0 12px;
+    margin:0 12px;
+    bottom:12px;
+    left:0;
+}
 
+h2 {
+    font-size:28px;
+    text-transform: uppercase;
+}
 
-
-
-
+p {
+    font-size:26px;
+    width:900px;
+    color: white;
+}
 
 
 
